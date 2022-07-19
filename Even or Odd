@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main(){
+    int n,a;
+    scanf("%d",&n);
+    for(int i=1; i<=n;i++){
+        scanf("%d",&a);
+        if(a > 0){
+            if(a%2==0){
+                printf("EVEN POSITIVE\n");
+            }
+            else{
+                printf("ODD POSITIVE\n");
+            }
+        }
+        else if(a <0){
+            if(a%2==0){
+                printf("EVEN NEGATIVE\n");
+            }
+            else{
+                printf("ODD NEGATIVE\n");
+            }
+        }
+        else{
+            printf("NULL\n");
+        }
+    }
+}
