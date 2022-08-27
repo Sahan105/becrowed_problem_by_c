@@ -1,0 +1,17 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+int n,i,j,a=1,d,k;
+scanf("%d",&n);
+for(i=0 ;i<n;i++){
+    for(j=a;j<=a;j++){
+        d=a*a;
+        k=a*a*a;
+    }
+     printf("%d %d %d\n",a,d,k);
+    a++;
+}
+ 
+    return 0;
+}
